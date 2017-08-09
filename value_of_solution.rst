@@ -1,15 +1,25 @@
 解決方案與價值
 ====================
 
-TaaS - Test as a Service 架構 (model) 會集中 測試資源 (test resource),
-使用者 (user) 只需要透過網路 設計 與 安排 相應的測試即可.
+本論文將提出一個 TaaS - Test as a Service 架構.
+TaaS 提供平台讓使用者取用別的團隊的硬體資源, 部署測試環境, 與進行測試.
+包含三個部分:
 
-在這個架構下, 準備與維護 測試環境 (test environment) 與 待測物 (target) 集中,
-減少不必要的成本.
+- resource management (including resource reservation)
+- auto deployment
+- test harness (test framework)
 
-建立於此架構之上的 測試框架 (test framework) 集中 測試案例, 測試報告,
-與 自動化測試工具. test engineer 可專注於改進 測試案例 而不需要分心整理
-來自不同測試團隊的 測試報告, 進而提升 測試可靠性 (test integrity).
+透過抽象化硬體資源, 此架構令分散各處的硬體資源可共享, 進而降低生產/維護的成本.
+
+.. PaaS
+
+
+.. 這個架構提供整合的線上測試框架讓使用者設計與執行 測試案例,
+.. 並將軟硬體資源抽象化 供分散各處的團隊共享使用.
+
+.. 在這個架構下, 由於硬體資源共享, 減少不必要的生產/維護成本;
+.. 除此之外, 統一的測試框架讓使用者專注改進 test integrity.
+
 
 ..  solution: TaaS
 
