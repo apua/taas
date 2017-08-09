@@ -1,7 +1,7 @@
 解決方案與價值
 ====================
 
-TaaS - Test as a Service 架構 (model) 集中 測試資源 (test resource),
+TaaS - Test as a Service 架構 (model) 會集中 測試資源 (test resource),
 使用者 (user) 只需要透過網路 設計 與 安排 相應的測試即可.
 
 在這個架構下, 準備與維護 測試環境 (test environment) 與 待測物 (target) 集中,
